@@ -21,16 +21,16 @@ export default function Canvas() {
 function Dot({ position, opacity }) {
   return (
     <div style={{
-      position: 'absolute',
-      backgroundColor: 'pink',
+          position: 'absolute',
+          backgroundColor: 'lightgreen',
       borderRadius: '50%',
       opacity,
       transform: `translate(${position.x}px, ${position.y}px)`,
       pointerEvents: 'none',
-      left: -20,
-      top: -20,
-      width: 40,
-      height: 40,
+      left: -10,
+      top: -10,
+      width: 20,
+      height: 20,
     }} />
   );
 }
